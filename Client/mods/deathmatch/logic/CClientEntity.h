@@ -77,6 +77,7 @@ enum eClientEntityType
     CCLIENTSEARCHLIGHT,
     CCLIENTIFP,
     CCLIENTVECTORGRAPHIC,
+    CCLIENTGIF,
     CCLIENTUNKNOWN,
 };
 
@@ -137,6 +138,7 @@ enum eCClientEntityClassTypes
     CLASS_CClientScreenSource,
     CLASS_CClientWebBrowser,
     CLASS_CClientVectorGraphic,
+    CLASS_CClientGif,
     CLASS_CClientWeapon,
     CLASS_CClientEffect,
     CLASS_CClientPointLights,
