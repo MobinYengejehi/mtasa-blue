@@ -991,6 +991,11 @@ bool CEntityAddPacket::Write(NetBitStreamInterface& BitStream) const
                     break;
                 }
 
+                case CElement::MEMBLOCK:
+                {
+                    break;
+                }
+
                 case CElement::COLSHAPE:
                 {
                     CColShape* pColShape = static_cast<CColShape*>(pElement);
